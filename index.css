@@ -1,34 +1,42 @@
 body {
-    margin: 0;
+    margin: 0 auto;
     background-color: #ECF0F1;
 }
 
-header {
-    font-family: Verdana serif;
+.top1 {
+    width: 100%;
+}
+
+p {
     font-size: 1.5em;
-    text-align: center;
-    margin-top: 1px;
-    border: 1px solid black;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    background-color: #2C3E50;
-    color: #ECF0F1;
-    letter-spacing: 15px;
 }
 
-nav {
-    background-color: #34495E;
-    width: 300px;
-    padding: 5px;
-    position: fixed;
-    height: 100%;
+.bookicon {
+    margin: 5px 10px;
 }
 
-.link {
+.shopName {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px auto;
+}
+
+.search {
     display: block;
-    text-align: center;
-    text-decoration: none;
-    color: #ECF0F1;
-    padding: 10px 10px;
-    font-size: 1.1em;
+    float: right;
+}
+
+.search1 {
+    width: 300px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 10px;
+    padding: 5px 5px;
+    margin: 10px 1px 0 10px;
+}
+.search2 {
+    width: 50px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 10px;
+    padding: 5px 5px;
+    margin: 10px 10px 10px 0;
 }
