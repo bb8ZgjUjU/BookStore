@@ -5,7 +5,7 @@ body {
 
 .top1 {
     width: 100%;
-    position: fixed;
+    border-bottom: 1px solid rgba(0,0,255,0.3);
 }
 
 p {
@@ -49,6 +49,7 @@ p {
 
 .logIn {
     display: inline-block;
+    position: relative;
     vertical-align: middle;
     transition: 0.5s;
 }
@@ -56,3 +57,22 @@ p {
 .logIn:hover {
     transform: scale(1.5);
 }
+
+.topNav {
+    display: inline-block;
+    position: fixed;
+    text-align: center;
+    width: 90%;
+    margin: 5px 0;
+}
+
+.home, .books, .service, .contact {
+    padding: 25px;
+    margin: auto 0;
+    text-decoration: none;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: auto 0;
+    color: black;
+}
+
+
