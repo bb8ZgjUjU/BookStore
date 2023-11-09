@@ -5,6 +5,7 @@ body {
 
 .top1 {
     width: 100%;
+    position: fixed;
 }
 
 p {
@@ -12,31 +13,46 @@ p {
 }
 
 .bookicon {
-    margin: 5px 10px;
+    margin: 5px 15px;
 }
 
 .shopName {
     display: inline-block;
     vertical-align: top;
-    margin: 10px auto;
+    margin: 18px auto;
+    letter-spacing: 3px;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
 .search {
-    display: block;
     float: right;
+    margin: auto 15px
 }
 
 .search1 {
     width: 300px;
     border: 1px solid rgba(0,0,0,0.2);
     border-radius: 10px;
-    padding: 5px 5px;
-    margin: 10px 1px 0 10px;
+    padding: 5px 8px;
+    margin: 20px 1px;
 }
-.search2 {
-    width: 50px;
-    border: 1px solid rgba(0,0,0,0.2);
-    border-radius: 10px;
-    padding: 5px 5px;
-    margin: 10px 10px 10px 0;
+
+.shop {
+    display: inline-block;
+    vertical-align: middle;
+    transition: 0.5s;
+}
+
+.shop:hover {
+    transform: scale(1.5);
+}
+
+.logIn {
+    display: inline-block;
+    vertical-align: middle;
+    transition: 0.5s;
+}
+
+.logIn:hover {
+    transform: scale(1.5);
 }
