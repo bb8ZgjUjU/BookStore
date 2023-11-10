@@ -3,6 +3,10 @@ body {
     background-color: #ECF0F1;
 }
 
+a {
+    text-decoration: none;
+}
+
 .top1 {
     width: 100%;
     border-bottom: 1px solid rgba(0,0,255,0.3);
@@ -60,7 +64,6 @@ p {
 
 .topNav {
     display: inline-block;
-    position: fixed;
     text-align: center;
     width: 90%;
     margin: 5px 0;
@@ -75,4 +78,34 @@ p {
     color: black;
 }
 
+header {
+    position: relative;
+    text-align: center;
+    margin: auto 0;
+}
 
+.centerbutton {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.offer {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+.getitstarted {
+    background-color: rgba(0,0,255,0.5);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+    transition: 0.2s;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.getitstarted:hover {
+    transform: scale(1.2);
+}
