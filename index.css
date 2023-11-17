@@ -38,7 +38,7 @@ p {
     display: inline-block;
     vertical-align: middle;
     transition: 0.5s;
-    margin: 17px 0;
+    margin: 17px 20px;
 
 }
 
@@ -116,14 +116,15 @@ p {
 
 header {
     width: 100%;
-    padding: 5px;
-    margin: 50px 0;
+    padding: 5px 0;
+    margin: 25px 0;
 }
 
 .leftheader {
     width: 300px;
-    height: 400px;
-    padding: 5px;
+    height: 200px;
+    padding: 100px 5px;
+    display: inline-block;
 }
 
 h1 {
@@ -146,4 +147,27 @@ h1 {
     border-radius: 15px;
     border-width: 1px;
     opacity: 0.7;
+}
+
+.feature {
+    margin: 20px 0;
+    display: inline-block;
+    padding: 50px 5px;
+    position: absolute;
+}
+
+.ikigai {
+    box-shadow: 10px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.ikigaisummary {
+    display: inline-block;
+    margin: 0 220px;
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.seemore {
+    color: blue;
 }
