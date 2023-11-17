@@ -29,23 +29,17 @@ p {
     font-family: Verdana, Tahoma, sans-serif;
 }
 
-.search {
+.user {
     float: right;
     margin: auto 15px
-}
-
-.search1 {
-    width: 300px;
-    border: 1px solid rgba(0,0,0,0.2);
-    border-radius: 10px;
-    padding: 5px 8px;
-    margin: 20px 1px;
 }
 
 .shop {
     display: inline-block;
     vertical-align: middle;
     transition: 0.5s;
+    margin: 17px 0;
+
 }
 
 .shop:hover {
@@ -121,38 +115,35 @@ p {
 }
 
 header {
-    position: relative;
+    width: 100%;
+    padding: 5px;
+    margin: 50px 0;
+}
+
+.leftheader {
+    width: 300px;
+    height: 400px;
+    padding: 5px;
+}
+
+h1 {
+    margin: 5px 55px;
+    padding: 1px;
+    letter-spacing: 2px;
+    font-size: 2.5em;
+}
+
+.explore {
+    font-size: 14px;
+    opacity: 0.6;
     text-align: center;
-    margin: auto 0;
 }
 
-.imgheader {
-    opacity: 0.5;
-}
-
-.centerbutton {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.offer {
-    font-family: Verdana;
-    font-weight: bold;
-    font-size: 1.8em;
-}
-
-.getitstarted {
-    background-color: rgba(0,0,255,0.5);
-    color: white;
-    padding: 10px 25px;
-    border-radius: 25px;
-    transition: 0.2s;
-    font-family: Verdana, Tahoma, sans-serif;
-    
-}
-
-.getitstarted:hover {
-    transform: scale(1.2);
+.booksearch {
+    width: 58%;
+    padding: 3px 10px;
+    margin: 5px 55px;
+    border-radius: 15px;
+    border-width: 1px;
+    opacity: 0.7;
 }
