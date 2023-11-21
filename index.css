@@ -39,21 +39,20 @@ p {
     vertical-align: middle;
     transition: 0.5s;
     margin: 17px 20px;
-
 }
 
 .shop:hover {
     transform: scale(1.5);
 }
 
-.logIn {
+.login {
     display: inline-block;
     position: relative;
     vertical-align: middle;
     transition: 0.5s;
 }
 
-.logIn:hover {
+.login:hover {
     transform: scale(1.5);
 }
 
@@ -174,10 +173,4 @@ h1 {
     text-align: right;
     display: block;
     padding: 10px 2px;
-}
-
-main {
-    width: 100%;
-    border: 1px solid black;
-    position: relative;
 }
